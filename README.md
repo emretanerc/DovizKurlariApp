@@ -1,5 +1,5 @@
 # dovizkurlariApp
-Döviz Kurlarını Api'dan Çekip Gösteren Mobil Uygulama
+Döviz Kurlarını Api'dan Çekip TL olarak Gösteren Mobil Uygulama
 
 
 ![](preview.gif)
