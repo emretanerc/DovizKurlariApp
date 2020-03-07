@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Döviz Kurları App</string>
+
+
+    <string name="dSaatBaslik">SAAT</string>
+    <string name="dTarihBaslik">TARİH</string>
+    <string name="dDerinlikBaslik">DERİNLİK</string>
+
+</resources>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/trLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_card"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/amerikanBaslik"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Dolar"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dolarTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/euroLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_card"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/amerikanBaslik2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Euro"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/euroTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sterlinLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_card"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/amerikanBaslik3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Sterlin"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sterlinTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yenLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.30"
+        android:background="@drawable/shape_card"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/yenBaslik"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Japon Yeni"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/yenTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frangLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.30"
+        android:background="@drawable/shape_card"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/frangBaslik"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="İsviçre Frangı"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/frangTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/audLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.30"
+        android:background="@drawable/shape_card"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/audBaslik"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Avustralya Doları"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/avusturalyaTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/kanadaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.30"
+        android:background="@drawable/shape_card"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/kanadaBaslik"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Kanada Doları"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/kanadaTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.40"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="TextView"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
