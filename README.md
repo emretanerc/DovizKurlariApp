@@ -1,6 +1,7 @@
 # dovizkurlariApp
 Döviz Kurlarını Api'dan Çekip TL olarak Gösteren Mobil Uygulama
-
+#Android Studio
+#Java
 
 ![](preview.gif)
 
